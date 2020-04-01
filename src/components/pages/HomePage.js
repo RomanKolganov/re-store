@@ -1,9 +1,13 @@
 import React from "react";
 import BookList from "../bookList/BookList";
+import ShoppingCartTable from "../shopingCartTable/ShopingCartTable";
 
 const HomePage = () => {
     return(
-        <BookList books={[]} />
+        <div>
+            <BookList books={[]} />
+            <ShoppingCartTable />
+        </div>
     )
 };
 
